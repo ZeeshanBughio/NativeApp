@@ -36,7 +36,7 @@ function BottomStackNav() {
                     headerShown: false,
                 }}
             />
-            <BottomStack.Screen
+            {/* <BottomStack.Screen
                 name='Profile Screen'
                 component={ProfileScreen}
                 options={{
@@ -49,7 +49,7 @@ function BottomStackNav() {
                 options={{
                     headerShown: false,
                 }}
-            />
+            /> */}
         </BottomStack.Navigator>
     );
 }

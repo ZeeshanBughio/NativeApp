@@ -32,16 +32,16 @@ function DrawerStackNav() {
                 component={HomeScreen}
                 options={{
                     headerStyle: {
-                        backgroundColor: '#f4511e', // Set Header color
+                        backgroundColor: '#f4511e',
                     },
-                    headerTintColor: '#fff', // Set Header text color
+                    headerTintColor: '#fff',
                     headerTitleStyle: {
-                        fontWeight: 'bold', // Set Header text font weight to bold
+                        fontWeight: 'bold',
                     },
-                    drawerActiveTintColor: '#fff', // Set Drawer active tint color to white
-                    drawerInactiveTintColor: '#fff', // Set Drawer inactive tint color to white
+                    drawerActiveTintColor: '#fff',
+                    drawerInactiveTintColor: '#fff',
                     drawerLabelStyle: {
-                        fontWeight: 'bold', // Set Drawer link text font weight to bold
+                        fontWeight: 'bold',
                     },
                 }}
             />
@@ -51,21 +51,21 @@ function DrawerStackNav() {
                 component={NotificationsScreen}
                 options={{
                     headerStyle: {
-                        backgroundColor: '#f4511e', // Set Header color
+                        backgroundColor: '#f4511e',
                     },
-                    headerTintColor: '#fff', // Set Header text color
+                    headerTintColor: '#fff',
                     headerTitleStyle: {
-                        fontWeight: 'bold', // Set Header text font weight to bold
+                        fontWeight: 'bold',
                     },
-                    drawerActiveTintColor: '#fff', // Set Drawer active tint color to white
-                    drawerInactiveTintColor: '#fff', // Set Drawer inactive tint color to white
+                    drawerActiveTintColor: '#fff',
+                    drawerInactiveTintColor: '#fff',
                     drawerLabelStyle: {
-                        fontWeight: 'bold', // Set Drawer link text font weight to bold
+                        fontWeight: 'bold',
                     },
                 }}
             />
 
-            <DrawerStack.Screen
+            {/* <DrawerStack.Screen
                 name='Profile Screen'
                 component={ProfileScreen}
                 options={{
@@ -101,7 +101,7 @@ function DrawerStackNav() {
                         fontWeight: 'bold', // Set Drawer link text font weight to bold
                     },
                 }}
-            />
+            /> */}
 
         </DrawerStack.Navigator>
     )
